@@ -1,0 +1,125 @@
+.logoimg{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%; 
+    margin: 0px 10px;
+}
+
+body {
+    padding-top: 60px; 
+  }
+  
+  /* Add custom CSS to keep the navbar fixed at the top after scrolling */
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+
+.navbar-nav .nav-link {
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-fluid .navbar-brand{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.maincontainer{
+    display: flex;  
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+}
+.halfhome{
+    width: 100%;
+}
+.halfhome .girl{
+    width: 100%;    
+}
+.heading{
+    padding: 2%;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  #typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(40, end);
+  }
+
+h1{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+   .maincontainer{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+}
+
+.startbut {
+
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(1, 1, 92);
+    color: white;
+    border-radius: 5px;
+    background: none;
+    box-shadow: none    ;
+}
+.startbut:hover {
+    background-color: white;
+    color: black;
+}
+
+#about{
+    background-color: rgb(1, 1, 16);
+}
+
+#black{
+    font-size: 3rem;
+    margin-left: 35px;
+}
+
+.abimg{
+    width: 100%;
+    padding: 5%;
+}
+.para{
+    width: 90%;
+}
+.abous{
+    width: 70%;
+    margin-left: 50px;
+}
+<<<<<<< HEAD
+.girl{
+    margin-top: 100px;
+=======
+.logoimg{
+    margin-top: 70px;
+>>>>>>> df53f1a4262522cd56ffbf9fb199be755072b0c4
+}
